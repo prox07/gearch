@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+@import url('https://fonts.googleapis.com/css?family=Qwigley');
+
+:root {
+    --main-color: #FFEB3B;
+    --secondary-color: black;
+    --main-text-color: black;
+    --message-color:white;
+    --secondary-text-color: black;
+    --send-message-form: #F5F5F5;
+}
+
+html, body {
+    height: 100%;
+    margin: 0px 0px;
+    padding: 0;
+    font-weight: 400;
+    color: #3e5869;
+    background-color: var(--main-text-color);
+    overflow:hidden;
+}
+
+#root {
+    height: 100%;
+}
+
+*:focus {
+    outline: none;
+}
+
+.app {
+  height: 82%;
+  margin: 0px 0px;
+}
+
+.handleInput {
+  border: none;
+  background-color: var(--main-color);
+  color: var(--main-text-color);
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-align: center;
+  width: 210px;
+  margin-top: 8vh;
+  margin-bottom: 4vh;
+  font-size: 20px;
+  display:inline-block;
+  font-weight: bold;
+}
+
+.black {
+  background-color: black;
+}
+
+.maxima {
+  background-color: black;
+  height: 100%;
+}
+
+.proxr {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  color: slategray;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+}
+
+.proxl {
+  position: fixed;
+  bottom: 15px;
+  left: 30px;
+  color: slategray;
+  font-family: 'Qwigley', cursive;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.imgresize {
+  width: 8em;
+  border-radius: 20px;
+  padding: 0px;
+}
+
+.message {
+    margin: 10px 0;
+}
+
+.message div {
+    background: var(--main-color);
+    color: var(--secondary-color);
+    display: inline-block;
+    padding: 8px 8px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.message p {
+    color: whitesmoke;
+    padding: 0px;
+    margin: 2px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.message-list {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0px 0px;
+    width: 100%;
+    height: 80%;
+    overflow-y: scroll;
+    background: black;
+}
