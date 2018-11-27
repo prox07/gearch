@@ -1,5 +1,7 @@
 # gearch
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/rexagod/gearch.svg)](https://greenkeeper.io/)
+
 [Edit this project on StackBlitz](https://stackblitz.com/edit/gearch)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
